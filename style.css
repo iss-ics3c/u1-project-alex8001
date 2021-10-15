@@ -1,11 +1,14 @@
-/*PALETTE: https://paletton.com/#uid=7000u0k3V4WaYgf7Lb1ac80gJaQ*/
+/*
+PALETTE: https://paletton.com/#uid=7000u0k3V4WaYgf7Lb1ac80gJaQ
+DOMAIN: https://iss-ics3c.github.io/u1-project-alex8001/
+*/
 
 body{
     background-color: #151818;
     color: #446844;
-    height: 100vh;
+   /* height: 100vh;*/
     display:grid;
-    grid-template-rows: auto auto auto auto;
+
 
 }
 
@@ -17,6 +20,7 @@ body{
     justify-content: center;
     width:70em;
     margin: auto;
+    margin-top:0px;
 }
 #hpmaininfo{
     text-align: center;
@@ -40,4 +44,49 @@ body{
     width:50px;
     margin:0px;
     margin-top:10px;
+}
+
+#p2header{
+    text-align:center;
+    justify-content:center;
+    margin:auto;
+    padding-top:15px;
+    padding:10px;
+    border-bottom: 5px solid #446844;
+    width: 70em;
+}
+
+#p2section{
+    margin:50px 90px 50px 90px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-content:center;
+    text-align:center;
+    gap: 90px;
+}
+
+#p2urelated{
+    margin:100px;
+    margin-top:0px;
+    margin-bottom:50px;
+}
+.p2ordered{
+    display: flex;
+    justify-content: space-around;
+}
+#p2icon{
+    width:100px;
+    display:flex;
+    float:right;
+}
+#p2maininfo{
+    margin-left:100px;
+    margin-right:100px;
+    text-align:justify;
+}
+
+.navbar{
+    position: absolute;
+    top: 15px;
 }
